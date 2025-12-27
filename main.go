@@ -24,6 +24,8 @@ func main() {
 		fmt.Println(solutions.Sol4(n))
 	case 5:
 		fmt.Println(solutions.Sol5(n))
+	case 6:
+		fmt.Println(solutions.Sol6(n))
 	default:
 		log.Fatal("No arguments provided.")
 	}
